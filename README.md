@@ -1,30 +1,35 @@
-# 🚀 Playwright Python Automation Framework
-### Project by Gal Matalon | Automation College
+# Playwright Python Automation Framework
+פרויקט תשתית אוטומציה מתקדמת עם Playwright ו-Pytest  
+Project by **Gal Matalon | Automation College**
 
-![Playwright Python](https://img.shields.io/badge/Playwright-Python-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-Automation-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+## אודות הפרויקט
+תשתית אוטומציה מלאה באמצעות Playwright בשפת Python המיועדת להרצת בדיקות UI מודולריות מול דפדפנים שונים, עם אינטגרציה ל-CI/CD, דיווח ויזואלי ודפדפנים מרובים.
 
----
+## טכנולוגיות
+- Python 3
+- Playwright (Sync)
+- Pytest
+- Allure Reports
+- GitHub Actions
+- Docker
 
-## 📖 אודות הפרויקט
-תשתית אוטומציה מתקדמת המבוססת על **Playwright** בשפת **Python**. הפרויקט מדגים בניית בדיקות יציבות (Robust), עבודה עם דפדפנים מרובים, אינטגרציה מלאה לתהליכי CI/CD ודיווח ויזואלי מפורט.
+## מבנה הפרויקט
+.github - CI/CD  
+pages - Page Object Model  
+tests - תרחישי בדיקות  
+utils - פונקציות עזר  
+data - נתוני בדיקות  
 
-## 🛠️ טכנולוגיות (Tech Stack)
-* **Language:** Python 3.13
-* **Framework:** Playwright (Sync API)
-* **Test Runner:** Pytest
-* **Reporting:** Allure Reports
-* **CI/CD:** GitHub Actions (Ubuntu Container)
-* **Infrastructure:** Docker & XVFB
+## הרצה מקומית
+git clone https://github.com/galmatalon/playwright-python-58  
+pip install -r requirements.txt  
+playwright install  
+pytest -s -v  
 
----
+## עליי
+גל מטלון, מייסד המכללה לאוטומציה, מעל 20 שנות ניסיון ב-QA ואוטומציה.  
+מרצה, מנטור ומפתח תשתיות אוטומציה מקצועיות.  
+https://automation.co.il/gal-matalon-qa-automation/
 
-## 🚀 איך מריצים? (Quick Start)
-
-1. **שכפול הפרויקט:**
-   ```bash
-   git clone [https://github.com/galmatalon/playwright-python-58.git](https://github.com/galmatalon/playwright-python-58.git)
-   cd playwright-python-58
-
-   
+## רישיון
+MIT
