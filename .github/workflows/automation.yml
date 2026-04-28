@@ -1,4 +1,4 @@
-name: automation demo
+name: automation project
 
 on:
   workflow_dispatch:          # manual trigger only
