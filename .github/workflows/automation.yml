@@ -13,7 +13,8 @@ jobs:
     timeout-minutes: 15
 
     container:
-      image: mcr.microsoft.com/playwright:v1.57.0-noble   # browsers + xvfb pre‑installed
+      image: mcr.microsoft.com/playwright:v1.58.0-noble   # browsers + xvfb pre‑installed
+      
 
     steps:
       # 1 Check out code
